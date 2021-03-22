@@ -40,6 +40,8 @@ bolinhas[i].style.backgroundColor = "#CCC";
 bolinhas[pos].style.backgroundColor = "#FF0000";
 }
 
+/*_____________MENU____________*/
+
 function toggleMenu() {
 
 	var menu = document.getElementById("menu");

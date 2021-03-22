@@ -372,6 +372,10 @@ body {
   font-size: 30px;
 }
 
+.menumobile{
+    display: none;
+}
+
 @media only screen and (min-width: 906px) and (max-width: 1057px) {
   .topint,
   .topo2int,
@@ -380,6 +384,10 @@ body {
   .containerint {
     max-width: 890px;
   }
+
+  #menu{
+    display: block !important;
+      }
   .leftside {
     width: 600px;
   }
@@ -424,6 +432,10 @@ body {
   .topo2 .banner {
     display: none;
   }
+
+  #menu{
+display: block !important;
+  }
   .noticiaarea1 {
     width: 446px;
   }
@@ -457,8 +469,30 @@ body {
   .toporight {
     width: 100%;
   }
-  .menuint {
-    display: none;
+
+  .menumobile{
+      display: block;
+  }
+
+  .menu ul{
+      position:absolute;
+      background-color: #ff0000;
+      z-index: 10;
+      display: none;
+  }
+
+  .menu li{
+      float: none;
+      height: auto;
+  }
+
+  .menu li img{
+      display: none;
+  }
+
+  .submenu{
+      position: static;
+      display: block;
   }
   .logo {
     float: none;
